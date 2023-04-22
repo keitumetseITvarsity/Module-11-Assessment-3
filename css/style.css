@@ -1,0 +1,47 @@
+html {
+    font-size: 14px;
+}
+
+.blog-header {
+    margin-top: 7rem;
+    max-width: 700px;
+}
+
+/* team */
+.team {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+/* Card */
+.card-deck .card{
+    min-width: 220px;
+}
+
+.card-text {
+    padding-top: 1rem;
+}
+
+.card-block {
+    min-height: 220px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        margin-top: 8rem;
+
+    }
+}

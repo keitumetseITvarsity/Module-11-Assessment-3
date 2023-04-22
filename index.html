@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Mini Blog</title>
+</head>
+<body onload="init()">
+    <div class="d-flex flex-column align-items-center p-3 bg-white border-bottom box-shadow fixed-top">
+
+        <img src="img/mini-blog-logo.png" alt="logo" height="40">
+        <nav>
+            <a href="#" id="getLatest" class="p-2 text-dark">Latest</a>
+            <a href="#" id="getAll" class="p-2 text-dark active">All</a>
+            <a href="#" id="getPopular" class="p-2 text-dark">Popular</a>
+        </nav>
+    </div>
+    <div class=" blog-header mx-auto text-center">
+        <h1>Is it Beautiful?</h1>
+        <p class="lead">All the latest <Strong><em>Tech</em></Strong>, <Strong><em>Design</em></Strong> and <Strong><em>Development</em></Strong> from around the world.</p>
+    </div>
+
+    <div class="container team">
+        <img src="img/sally.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/lee.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/dave.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/thandi.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/jane.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/lungi.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/andile.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/bob.jpg" class="img-thumbnail rounded-circle" width="90">
+        <img src="img/john.jpg" class="img-thumbnail rounded-circle" width="90">
+    </div>
+    <!-- Main -->
+    <div class="row container mx-auto">
+        <div class="column" id="posts">
+            Loading content...
+        </div>
+    </div>
+   <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
